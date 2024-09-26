@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Derek Gan</title>
+    <link
+      rel="icon"
+      href="assets/derek-logo.png"
+      type="image/icon type"
+    />
+    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/home.css" />
+    <link rel="stylesheet" href="styles/about.css" />
+    <link rel="stylesheet" href="styles/experience.css" />
+    <link rel="stylesheet" href="styles/projects.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <!-- Transition -->
+    <!-- <style>
+      /* Apply a fade-in effect on the whole body */
+      body {
+        opacity: 0; /* Initially invisible */
+        animation: fadeIn 2s ease-in-out forwards; /* Animation name, duration, timing function */
+      }
+  
+      /* Define the fadeIn animation */
+      @keyframes fadeIn {
+        0% {
+          opacity: 0;
+        }
+        100% {
+          opacity: 1;
+        }
+      }
+  
+      /* Optional: Style for the content */
+      h1 {
+        text-align: center;
+        margin-top: 50px;
+      }
+    </style> -->
+
+    <!-- <style>
+      *,
+      *:after,
+      *::before {
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+      }
+      html, body {
+          width: 100%;
+          height: 100%;
+      }
+      body {
+          background-color: #191617;
+      }
+      section {
+          padding: 130px 0;
+      }
+      section::before,
+      section::after {
+          position: absolute;
+          content: '';
+          pointer-events: none;
+      }
+      #first-section {
+          background-color: #dcdbdc;
+          font-family: 'Oswald', sans-serif;
+          font-size: 18px;
+          font-weight: 300;
+          line-height: 3rem;
+      }
+      #second-section {
+          background-color: #f1646a;
+          color: white;
+          font-family: 'Oswald', sans-serif;
+          font-size: 18px;
+          font-weight: 300;
+          line-height: 3rem;
+      }
+      #third-section {
+          background-color: lightblue;
+          color: white;
+          font-family: 'Oswald', sans-serif;
+          font-size: 18px;
+          font-weight: 300;
+          line-height: 3rem;
+      }
+
+      .train {
+          display: block;
+          max-width: 100%;
+          position: absolute;
+          bottom: -70px;
+          opacity: 1;
+          transition: all 0.9s ease-out;
+          transform: translate(-50%, 100%);
+      }
+    </style> -->
+  </head>
+  <body>
+    <header class="header">
+      <div class="logo__container">
+        <a href="#home">
+          <img
+            class="logo__icon"
+            src="assets/derek-logo.png"
+            alt="home icon"
+          />
+        </a>
+      </div>
+      <nav class="navigation__container">
+        <ol class="navigation__links">
+          <li class="link__item">
+            <span class="hightlight">01.</span>
+            <a class="link__name underline" href="#about">About</a>
+          </li>
+          <li class="link__item">
+            <span class="hightlight">02.</span>
+            <a class="link__name underline" href="#experience">Experience</a>
+          </li>
+          <li class="link__item">
+            <span class="hightlight">03.</span>
+            <a class="link__name underline" href="#projects">Projects</a>
+          </li>
+          <li class="link__item">
+            <span class="hightlight">04.</span>
+            <a class="link__name underline" href="#contact">Contact</a>
+          </li>
+        </ol>
+        <div>
+          <a class="resume__link" href="assets/Resume - Derek Gan Kaa Kheng.pdf" target="_blank">Resume</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="home" class="home__section">
+        <h4 class="home__title">Hi, I am</h4>
+        <h2 class="home__username">Derek.</h2>
+        <h3 class="home__subtitle">I build Mobile Apps and more.</h3>
+        <p class="home__description">
+          I eat, I code, I sleep. While alive, I repeat &lt3<br/>
+          Jokes aside, I love exploring different areas, currently focusing on
+          <span class="hightlight underline">Mobile App</span>,
+          <span class="hightlight underline">Flutter</span> and 
+          <span class="hightlight underline">Quality Assurance</span>.<br/>
+          My goal by 2027 is to build a
+          <span class="hightlight underline">Super Mobile App</span> that can benefit thousands of university students in Malaysia. Stay tuned!
+        </p>
+        <div class="home__cta">
+          <a class="cta__link" href="#contact">Contact me</a>
+        </div>
+      </section>
+      <section id="about" class="about__section">
+        <h2 class="about__title">
+          <span>01.</span>
+          About Me
+        </h2>
+        <div class="about__container">
+          <div class="about__content">
+            <div class="about__text">
+              <p>
+                Hi there! I am
+                <span class="hightlight underline">Derek</span>. I started to learn my first programming language – Python when I was 19 years old. Since then, I am obsessed with it and I could't help delving deeper into the realm of programming. After that, I have been involving myself in different
+                areas of tech including
+                <span class="hightlight underline">Artificial Intelligence</span>,
+                <span class="hightlight underline">Data Science</span>,
+                <span class="hightlight underline">Software Development</span>,
+                <span class="hightlight underline">Quality Assurance</span
+                >
+                and so on.
+              </p>
+              <p>
+                Fast-forward to today, I have built various 
+                <a class="hightlight underline" href="https://github.com/derekgan08" style="text-decoration:none">projects</a>
+                and published numerous 
+                <a class="hightlight underline" href="https://www.researchgate.net/profile/Derek-Gan-Kaa-Kheng" style="text-decoration:none">articles</a> related to Computer Science.
+              </p>
+              <p>
+                Here are a few technologies I've been working with recently:
+              </p>
+            </div>
+            <ul class="about__technologies">
+              <li>Scikit-learn, TensorFlow, PyTorch, OpenCV</li>
+              <li>Flutter, Dart, Firebase</li>
+              <li>MERN - MongoDB, Express, React, Node.js</li>
+              <li>JavaFX, SceneBuilder</li>
+            </ul>
+          </div>
+          <div class="about__image">
+            <img src="assets/derek-photo.jpg" alt="Profile" />
+          </div>
+        </div>
+      </section>
+      <section id="experience" class="experience__section">
+        <h2 class="about__title">
+          <span>02.</span>
+          Where I've Worked
+        </h2>
+        <div class="experience__container">
+          <div class="experience__card">
+            <h3 class="experience__role">
+              <span>Full Stack Development Intern</span>
+              @
+              <span>
+                <a class="experience__company underline" href="https://www.dynafront.com/" target="_blank">
+                  DynaFront Systems Malaysia
+                </a>
+              </span>
+            </h3>
+            <p class="experience__date">March 2023 - October 2023</p>
+            <ul class="experience__about">
+              <li><b>J2EE Web Application Development:</b> Actively involved in the development, enhancement, and maintenance of <a class="hightlight underline" href="https://www.oracle.com/java/technologies/appmodel.html" style="text-decoration:none">J2EE</a> web applications with <a class="hightlight underline" href="https://tomcat.apache.org/" style="text-decoration:none">Apache Tomcat</a>. Collaborated with cross-functional teams to ensure efficient application deployment, debugging, and integration with other internal systems. Focused on delivering responsive and high-performance user interfaces by adhering to industry best practices while ensuring scalability.
+              </li>
+              <li><b>RESTful API Design and Integration:</b> Designed and implemented <a class="hightlight underline" href="https://restfulapi.net/" style="text-decoration:none">RESTful APIs</a> using <a class="hightlight underline" href="https://spring.io/projects/spring-boot" style="text-decoration:none">Spring Boot</a>, enabling integration with <a class="hightlight underline" href="https://www.microsoft.com/en-my/sql-server/sql-server-downloads" style="text-decoration:none">Microsoft SQL Server</a>. All the APIs were tested using Postman to ensure high performance.
+              </li>
+              <li><b>Mobile Application Development:</b> Developed and maintained mobile application using <a class="hightlight underline" href="https://flutter.dev/" style="text-decoration:none">Flutter</a>, enabling multi-language support and optimizing the user interface for different devices. Integrated APIs in JSON format, successfully parsing responses and displaying the information dynamically within the app. Gained hands-on experience with Flutter widgets, state management, and API consumption to create interactive and responsive mobile applications.
+              </li>
+              <li><b>Legacy System Revamping:</b> Engage in the migration of an existing legacy system built on the <a class="hightlight underline" href="https://struts.apache.org/" style="text-decoration:none">Apache Struts</a> framework to the modern and robust <a class="hightlight underline" href="https://spring.io/" style="text-decoration:none">Spring</a> Framework. Utilised SQL queries for backend services and <a class="hightlight underline" href="https://www.thymeleaf.org/" style="text-decoration:none">Thymeleaf</a> for frontend rendering, improving the system’s performance, maintainability, and user experience by 37%.
+              </li>
+              <li><b>SQL Development and Debugging:</b> Developed and debugged complex <span class="hightlight underline">SQL statements</span> for data manipulation and queries purposes using <a class="hightlight underline" href="https://dbeaver.io/" style="text-decoration:none">DBeaver</a>. Assisted in troubleshooting and optimizing slow-performing SQL queries to ensure the smooth running of web applications and backend processes.</li>
+              <li><b>Database Query Optimization and Front-End Data Display:</b> Worked closely with the database team to develop SQL queries, retrieve data from an <a class="hightlight underline" href="https://www.ibm.com/db2" style="text-decoration:none">IBM DB2</a> database, and display the results on user-facing web pages. Ensured efficient data retrieval and improved performance by optimizing SQL queries. Implemented dynamic data binding between backend services and frontend views, ensuring seamless interaction between user inputs and the database.
+              </li>
+              <li><b>Software Testing and Quality Assurance:</b> Developed comprehensive testing strategies, actively participated in software testing using <a class="hightlight underline" href="https://www.selenium.dev/selenium-ide/" style="text-decoration:none">Selenium IDE</a>. Reported and documented all the test results systematically in <a class="hightlight underline" href="https://www.redmine.org/" style="text-decoration:none">Redmine</a>.
+              </li>
+            </ul>
+            <ul class="project__technologies">
+              <li>Mobile App Development</li>
+              <li><a href="https://flutter.dev/" style="text-decoration:none; color:inherit;">Flutter</a></li>
+              
+              <li>Web Development</li>
+              <li><a href="https://www.oracle.com/java/technologies/appmodel.html" style="text-decoration:none; color:inherit;">J2EE</a></li>
+              <li><a href="https://tomcat.apache.org/" style="text-decoration:none; color:inherit;">Apache Tomcat</a></li>
+              <li><a href="https://struts.apache.org/" style="text-decoration:none; color:inherit;">Apache Struts</a></li>
+              <li><a href="https://www.thymeleaf.org/" style="text-decoration:none; color:inherit;">Thymeleaf</a></li>
+              <li><a href="https://spring.io/" style="text-decoration:none; color:inherit;">Spring</a></li>
+
+              <li>Microservice</li>
+              <li><a href="https://spring.io/projects/spring-boot" style="text-decoration:none; color:inherit;">Spring Boot</a></li>
+              <li><a href="https://restfulapi.net/" style="text-decoration:none; color:inherit;">RESTful API</a></li>
+              <li><a href="https://www.postman.com/" style="text-decoration:none; color:inherit;">Postman</a></li>
+
+              <li>SQL Development</li>
+              <li><a href="https://dbeaver.io/" style="text-decoration:none; color:inherit;">DBeaver</a></li>
+              <li><a href="https://www.microsoft.com/en-my/sql-server/sql-server-downloads" style="text-decoration:none; color:inherit;">Microsoft SQL Server</a></li>
+              <li><a href="https://www.ibm.com/db2" style="text-decoration:none; color:inherit;">IBM DB2</a></li>
+              
+              <li><a href="https://www.redmine.org/" style="text-decoration:none; color:inherit;">Redmine</a></li>
+              <li><a href="https://www.selenium.dev/selenium-ide/" style="text-decoration:none; color:inherit;">Selenium IDE</a></li>
+
+              <li><a href="https://gogs.io/" style="text-decoration:none; color:inherit;">Gogs</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="projects" class="work__section">
+        <h2 class="work__title">
+          <span>03.</span>
+          Some Things I've Built
+        </h2>
+        <div class="work__cards">
+          <div class="work__card">
+            <div class="project__container">
+              <p class="hightlight">Featured Project</p>
+              <h3 class="project__title">
+                <a href="https://github.com/derekgan08/law-firm-management-system-frontend" target="_blank">
+                  CaseAce - Law Firm Management System
+                </a>
+              </h3>
+              <p class="project__description">
+                Multipurpose web application for legal industry law firms to manage cases, documents, tasks, clients, staffs and more
+              </p>
+              <ul class="project__technologies">
+                <li><a href="https://www.w3.org/html/" style="text-decoration:none; color:inherit;">HTML5</a></li>
+                <li><a href="https://www.w3.org/Style/CSS/Overview.en.html" style="text-decoration:none; color:inherit;">CSS3</a></li>
+                <li><a href="https://www.javascript.com/" style="text-decoration:none; color:inherit;">JavaScript</a></li>
+                <li><a href="https://www.mongodb.com/" style="text-decoration:none; color:inherit;">MongoDB</a></li>
+                <li><a href="https://www.php.net/" style="text-decoration:none; color:inherit;">PHP</a></li>
+                <li><a href="https://react.dev/" style="text-decoration:none; color:inherit;">React</a></li>
+                <li><a href="https://nodejs.org/" style="text-decoration:none; color:inherit;">Node.js</a></li>
+                <li><a href="https://restfulapi.net/" style="text-decoration:none; color:inherit;">RESTful API</a></li>
+              </ul>
+              <div class="project__links">
+                <a href="https://github.com/derekgan08/law-firm-management-system-frontend" target="_blank">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <title>GitHub</title>
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    ></path>
+                  </svg>
+                </a>
+                <a href="https://github.com/derekgan08/law-firm-management-system-backend" target="_blank">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <title>GitHub</title>
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="project__image">
+              <img src="assets/projects-image/law-firm-management-system-frontend.png" alt="" />
+            </div>
+          </div>
+          <div class="work__card">
+            <div class="project__container">
+              <p class="hightlight">Featured Project</p>
+              <h3 class="project__title">
+                <a href="https://github.com/derekgan08/air-traffic-passenger-analysis" target="_blank">
+                  Air Traffic Passenger Analysis
+                </a>
+              </h3>
+              <p class="project__description">
+                Used Naïve Bayes model to predict the type of monthly passenger activity in San Francisco based on various features.
+              </p>
+              <ul class="project__technologies">
+                <li><a href="https://www.r-project.org/" style="text-decoration:none; color:inherit;">R</a></li>
+                <li><a href="https://scikit-learn.org/1.5/modules/naive_bayes.html" style="text-decoration:none; color:inherit;">Naïve Bayes</a></li>
+                <li><a href="https://cran.r-project.org/package=e1071" style="text-decoration:none; color:inherit;">e1071</a></li>
+                <li><a href="https://cran.r-project.org/package=dplyr" style="text-decoration:none; color:inherit;">dplyr</a></li>
+                <li><a href="https://www.tidyverse.org/" style="text-decoration:none; color:inherit;">Tidyverse</a></li>
+                <li><a href="https://cran.r-project.org/package=tibble" style="text-decoration:none; color:inherit;">tibble</a></li>
+                <li><a href="https://cran.r-project.org/package=ggplot2" style="text-decoration:none; color:inherit;">ggplot2</a></li>
+                <li><a href="https://cran.r-project.org/package=gridExtra" style="text-decoration:none; color:inherit;">gridExtra</a></li>
+                <li><a href="https://cran.r-project.org/package=ggpubr" style="text-decoration:none; color:inherit;">ggpubr</a></li>
+                <li><a href="https://cran.r-project.org/package=caret" style="text-decoration:none; color:inherit;">caret</a></li>
+                <li><a href="https://cran.r-project.org/package=Hmisc" style="text-decoration:none; color:inherit;">Hmisc</a></li>
+                <li><a href="https://cran.r-project.org/package=corrplot" style="text-decoration:none; color:inherit;">corrplot</a></li>
+                <li><a href="https://cran.r-project.org/package=caTools" style="text-decoration:none; color:inherit;">caTools</a></li>
+              </ul>
+              <div class="project__links">
+                <a href="https://github.com/derekgan08/air-traffic-passenger-analysis" target="_blank">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <title>GitHub</title>
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="project__image">
+              <img src="assets/projects-image/air-traffic-passenger-analysis.png" alt="" />
+            </div>
+          </div>
+          <div class="work__card">
+            <div class="project__container">
+              <p class="hightlight">Featured Project</p>
+              <h3 class="project__title">
+                <a href="https://github.com/derekgan08/english-malay-semantic-retrieval" target="_blank">
+                  English Malay Semantic Retrieval
+                </a>
+              </h3>
+              <p class="project__description">
+                Classified the similarity in semantic meaning of English-Malay sentences using LSTM deep learning model
+              </p>
+              <ul class="project__technologies">
+                <li><a href="https://developer.nvidia.com/discover/lstm" style="text-decoration:none; color:inherit;">LSTM</a></li>
+                <li><a href="https://www.tensorflow.org/" style="text-decoration:none; color:inherit;">TensorFlow</a></li>
+                <li><a href="https://keras.io/" style="text-decoration:none; color:inherit;">Keras</a></li>
+                <li><a href="https://numpy.org/" style="text-decoration:none; color:inherit;">NumPy</a></li>
+                <li><a href="https://matplotlib.org/" style="text-decoration:none; color:inherit;">Matplotlib</a></li>
+                <li><a href="https://keras.io/api/keras_hub/tokenizers/tokenizer/" style="text-decoration:none; color:inherit;">Keras Tokenizer</a></li>
+                <li><a href="https://nlp.stanford.edu/projects/glove/" style="text-decoration:none; color:inherit;">GloVe</a></li>
+              </ul>
+              <div class="project__links">
+                <a href="https://github.com/derekgan08/english-malay-semantic-retrieval" target="_blank">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <title>GitHub</title>
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="project__image">
+              <img src="assets/projects-image/english-malay-semantic-retrieval.png" alt="" />
+            </div>
+          </div>
+          <div class="work__card">
+            <div class="project__container">
+              <p class="hightlight">Featured Project</p>
+              <h3 class="project__title">
+                <a href="https://github.com/derekgan08/cuzvcare-mobile-app" target="_blank">
+                  cuzVcare – Volunteer Recruitment Application
+                </a>
+              </h3>
+              <p class="project__description">
+                Mobile application for volunteers and event organisers to recruit, join and keep track volunteering events with other functionalities
+              </p>
+              <ul class="project__technologies">
+                <li><a href="https://www.figma.com/" style="text-decoration:none; color:inherit;">Figma</a></li>
+                <li><a href="https://dart.dev/" style="text-decoration:none; color:inherit;">Dart</a></li>
+                <li><a href="https://flutter.dev/" style="text-decoration:none; color:inherit;">Flutter</a></li>
+                <li><a href="https://firebase.google.com/" style="text-decoration:none; color:inherit;">Firebase</a></li>
+              </ul>
+              <div class="project__links">
+                <a href="https://github.com/derekgan08/cuzvcare-mobile-app" target="_blank">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <title>GitHub</title>
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="project__image">
+              <img src="assets/projects-image/cuzvcare-mobile-app.png" alt="" />
+            </div>
+          </div>
+          <div class="work__card">
+            <div class="project__container">
+              <p class="hightlight">Featured Project</p>
+              <h3 class="project__title">
+                <a href="https://github.com/derekgan08/touchngo-ewallet-reviews-sentiment-analysis" target="_blank">
+                  Exploring TouchnGo eWallet User Reviews
+                </a>
+              </h3>
+              <p class="project__description">
+                Analysed the reviews and sentiments of TouchnGo eWallet mobile app scraped from Google Play Store
+              </p>
+              <ul class="project__technologies">
+                <li><a href="https://www.nltk.org/" style="text-decoration:none; color:inherit;">NLTK</a></li>
+                <li><a href="https://www.nltk.org/_modules/nltk/sentiment/vader.html" style="text-decoration:none; color:inherit;">VADER</a></li>
+                <li><a href="https://pandas.pydata.org/" style="text-decoration:none; color:inherit;">Pandas</a></li>
+                <li><a href="https://matplotlib.org/" style="text-decoration:none; color:inherit;">Matplotlib</a></li>
+                <li><a href="https://pypi.org/project/google-play-scraper/" style="text-decoration:none; color:inherit;">Google Play Scraper</a></li>
+                <li><a href="https://numpy.org/" style="text-decoration:none; color:inherit;">NumPy</a></li>
+                <li><a href="https://docs.python.org/3/library/re.html" style="text-decoration:none; color:inherit;">re</a></li>
+              </ul>
+              <div class="project__links">
+                <a href="https://github.com/derekgan08/touchngo-ewallet-reviews-sentiment-analysis" target="_blank">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <title>GitHub</title>
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="project__image">
+              <img src="assets/projects-image/touchngo-ewallet-reviews-sentiment-analysis.png" alt="" />
+            </div>
+          </div>
+          <div class="work__card">
+            <div class="project__container">
+              <p class="hightlight">Featured Project</p>
+              <h3 class="project__title">
+                <a href="https://github.com/derekgan08/QSAR-biodegradability-prediction" target="_blank">
+                QSAR Biodegradability Prediction Models
+                </a>
+              </h3>
+              <p class="project__description">
+                Predicting biodegradability using QSAR models with K-Nearest Neighbors, Decision Tree, Neural Network, Logistic Regression
+              </p>
+              <ul class="project__technologies">
+                <li><a href="https://pandas.pydata.org/" style="text-decoration:none; color:inherit;">Pandas</a></li>
+                <li><a href="https://numpy.org/" style="text-decoration:none; color:inherit;">NumPy</a></li>
+                <li><a href="https://scikit-learn.org/" style="text-decoration:none; color:inherit;">Scikit-learn</a></li>
+                <li><a href="https://www.tensorflow.org/" style="text-decoration:none; color:inherit;">TensorFlow</a></li>
+                <li><a href="https://keras.io/" style="text-decoration:none; color:inherit;">Keras</a></li>
+                <li><a href="https://github.com/adriangb/scikeras" style="text-decoration:none; color:inherit;">SciKeras</a></li>
+                <li><a href="https://matplotlib.org/" style="text-decoration:none; color:inherit;">Matplotlib</a></li>
+              </ul>
+              <div class="project__links">
+                <a href="https://github.com/derekgan08/QSAR-biodegradability-prediction" target="_blank">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <title>GitHub</title>
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    ></path>
+                  </svg>
+                </a>
+                <a href="https://express.adobe.com/page/j7yjG302L1iwD/" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                    <title>Report 1: k-Nearest Neighbour vs Decision Tree</title>
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25M9 16.5v.75m3-3v3M15 12v5.25m-4.5-15H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"
+                    ></path>
+                    </svg>
+                  </a>
+                  <a href="https://express.adobe.com/page/s082P8aGB1wch/" target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                      <title>Report 2: Neural Network vs Logistic Regression</title>
+                      <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25M9 16.5v.75m3-3v3M15 12v5.25m-4.5-15H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"
+                      ></path>
+                    </svg>
+                  </a>
+              </div>
+            </div>
+            <div class="project__image">
+              <img src="assets/projects-image/QSAR-biodegradability-prediction.png" alt="" />
+            </div>
+          </div>
+          <div class="work__card">
+            <div class="project__container">
+              <p class="hightlight">Featured Project</p>
+              <h3 class="project__title">
+                <a href="https://github.com/derekgan08/housing-prices-prediction" target="_blank">
+                  Housing Prices Prediction
+                </a>
+              </h3>
+              <p class="project__description">
+                Predicting housing prices with nominal and rent data for different locations using K-Means Clustering</a>
+              </p>
+              <ul class="project__technologies">
+                <li><a href="https://www.r-project.org/" style="text-decoration:none; color:inherit;">R</a></li>
+                <li>K-Means Clustering</li>
+                <li><a href="https://www.rdocumentation.org/packages/stats/versions/3.6.2/topics/kmeans" style="text-decoration:none; color:inherit;">kmeans</a></li>
+                <li><a href="https://www.tidyverse.org/" style="text-decoration:none; color:inherit;">Tidyverse</a></li>
+                <li><a href="https://cran.r-project.org/package=tibble" style="text-decoration:none; color:inherit;">tibble</a></li>
+                <li><a href="https://cran.r-project.org/package=caTools" style="text-decoration:none; color:inherit;">caTools</a></li>
+                <li><a href="https://cran.r-project.org/package=Hmisc" style="text-decoration:none; color:inherit;">Hmisc</a></li>
+                <li><a href="https://cran.r-project.org/package=corrplot" style="text-decoration:none; color:inherit;">corrplot</a></li>
+                <li><a href="https://cran.r-project.org/package=gridExtra" style="text-decoration:none; color:inherit;">gridExtra</a></li>
+                <li><a href="https://cran.r-project.org/package=ggpubr" style="text-decoration:none; color:inherit;">ggpubr</a></li>
+                <li><a href="https://cran.r-project.org/package=scales" style="text-decoration:none; color:inherit;">scales</a></li>
+              </ul>
+              <div class="project__links">
+                <a href="https://github.com/derekgan08/housing-prices-prediction" target="_blank">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <title>GitHub</title>
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="project__image">
+              <img src="assets/projects-image/housing-prices-prediction.jpg" alt="" />
+            </div>
+          </div>
+          <div class="work__card">
+            <div class="project__container">
+              <p class="hightlight">Featured Project</p>
+              <h3 class="project__title">
+                <a href="https://github.com/derekgan08/university-course-registration-system" target="_blank">
+                  Student Course Registration System
+                </a>
+              </h3>
+              <p class="project__description">
+                JavaFX desktop application for university students and lecturers course registration
+              </p>
+              <ul class="project__technologies">
+                <li><a href="https://gluonhq.com/products/scene-builder/" style="text-decoration:none; color:inherit;">SceneBuilder</a></li>
+                <li><a href="https://www.java.com/" style="text-decoration:none; color:inherit;">Java</a></li>
+                <li><a href="https://openjfx.io/" style="text-decoration:none; color:inherit;">JavaFX</a></li>
+                <li><a href="https://itextpdf.com/" style="text-decoration:none; color:inherit;">iText</a></li>
+              </ul>
+              <div class="project__links">
+                <a href="https://github.com/derekgan08/university-course-registration-system" target="_blank">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    role="img"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    stroke="currentColor"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <title>GitHub</title>
+                    <path
+                      d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                    ></path>
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div class="project__image">
+              <img src="assets/projects-image/university-course-registration-system.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact__section">
+        <h2 class="contact__title">
+          <span>04.</span>
+          What's Next?
+        </h2>
+        <div class="contact__container">
+          <div class="contact__content">
+            <h3>Get in Touch</h3>
+            <p>
+              I am currently looking for new opportunities. Feel free to drop me
+              a message.
+            </p>
+          </div>
+          <div class="contact__socials__container">
+            <ul class="contact__socials">
+              <li class="social__item">
+                <a
+                  class="social__link"
+                  href="https://wa.me/60182656231" target="_blank">
+                  <svg
+                    class="social__icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                  >
+                    <path
+                      d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+
+              <li class="social__item">
+                <a
+                  class="social__link"
+                  href="mailto:derekgan08@gmail.com" target="_blank">
+                  <svg
+                    class="social__icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-5 w-5"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
+                    />
+                    <path
+                      d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
+                    />
+                  </svg>
+                </a>
+              </li>
+
+              <li class="social__item">
+                <a
+                  class="social__link"
+                  href="https://www.linkedin.com/in/derekgan08/" target="_blank">
+                  <svg
+                    class="social__icon"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 448 512"
+                  >
+                    <path
+                      d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
+                    ></path>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <small>© 2024 Designed & Built by Derek Gan Kaa Kheng</small>
+      </div>
+    </footer>
+  </body>
+</html>
