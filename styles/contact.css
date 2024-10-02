@@ -1,0 +1,124 @@
+.contact__section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 10rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.contact__title{
+  display: flex;
+  align-items: center;
+  color: var(--secondary-gray);
+  font-size: var(--text-xl);
+  font-weight: 600;
+}
+
+.contact__title > span{
+  font-size: var(--text-base);
+  padding-right: 1rem;
+  color: var(--primary-green);
+}
+
+.contact__container{
+  margin-top: 2.5rem;
+}
+
+.contact__content > h3{
+  font-size: var(--text-4xl);
+  font-weight: 600;
+  color: var(--secondary-gray);
+  margin-bottom: 1.5rem;
+}
+
+.contact__container > p{
+  font-size: var(--text-lg);
+}
+
+.contact__socials__container{
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__socials {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.social__item {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  list-style-type: none;
+  margin: 2rem 1rem 0 0;
+}
+
+.contact__socials.show .social__item {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.social__item:nth-child(1) {
+  transition-delay: 0.1s;
+}
+
+.social__item:nth-child(2) {
+  transition-delay: 0.2s;
+}
+
+.social__item:nth-child(3) {
+  transition-delay: 0.3s;
+}
+
+.social__item:nth-child(4) {
+  transition-delay: 0.4s;
+}
+
+.social__link{
+  color: var(--secondary-gray);
+}
+
+.social__link:hover{
+  color: var(--primary-green);
+}
+
+.social__icon{
+  width: 1.5rem;
+  height: 1.5rem;
+  fill: currentColor;
+}
+
+@media (min-width: 640px){
+  .contact__title{
+  font-size: var(--text-2xl);
+  }
+
+  .contact__title > span{
+    font-size: var(--text-lg);
+  }
+
+  .contact__content > h3{
+    font-size: var(--text-5xl);
+  }
+}
+
+@media (min-width: 768px){
+  .contact__section{
+    margin-top: 5rem;
+  }
+
+  .contact__title{
+    font-size: var(--text-3xl);
+  }
+
+  .contact__title > span{
+    font-size: var(--text-xl);
+  }
+
+  .contact__content > h3{
+    font-size: var(--text-6xl);
+  }
+}
