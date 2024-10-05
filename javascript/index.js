@@ -85,6 +85,43 @@ window.onload = function() {
   
       socialsObserver.observe(socials);
     }
-  };
+
+  function fetchResumeUrl() {
+    fetch('https://docs.google.com/spreadsheets/d/e/2PACX-1vSws0CMnowelG7TItp6bBdVKJAsW0N1-vkyKI0l89Q_dRLYLYMScmJL6yaN_aC5g9ofrWC9liHrD7MN/pub?gid=0&single=true&output=tsv') // Update with your actual .tsv URL
+      .then(response => response.text())
+      .then(data => {
+        // Split the file into lines
+        const lines = data.trim().split('\n');
+
+        // Check if there's at least one line of data
+        if (lines.length >= 1) {
+          const resumeData = lines[0].split('\t'); // Extract the second row
+
+          // Ensure the data contains the expected column "resume-url"
+          if (resumeData.length > 1) {
+            const resumeUrl = resumeData[1]; // Extract the URL from the second column
+
+            // Redirect to the resume URL
+            window.open(resumeUrl, '_blank');
+          } else {
+            console.error('Invalid data in the TSV file');
+          }
+        } else {
+          console.error('No data found in the TSV file');
+        }
+      })
+      .catch(error => {
+        console.error('Error fetching the .tsv file:', error);
+      });
+  }
+
+  // Add event listener to the "Resume" link
+  const resumeLink = document.querySelector('.resume__link');
+  if (resumeLink) {
+    resumeLink.addEventListener('click', fetchResumeUrl);
+  } else {
+    console.error('Resume link not found!');
+  }
+};
   
   
