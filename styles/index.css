@@ -55,9 +55,9 @@ ul.experience__about {
   padding-left: 1.5rem; /* Add padding to the left for indentation */
 }
 
-li {
-  margin-bottom: 1rem; /* Optional: space between list items */
-}
+/* li {
+  margin-bottom: 1rem;
+} */
 
 /* Layout */
 main{
